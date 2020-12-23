@@ -1,6 +1,6 @@
 """
 Bruk openCV og tesseract til å scanne oppskrifter og lagre de som filer.
-For å installere støtte for norsk:
+For å installere støtte for norsk på ubuntu
 sudo apt-get install tesseract-ocr-nor
 """
 # %%
