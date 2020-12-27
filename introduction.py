@@ -6,11 +6,11 @@ import cv2
 import pytesseract
 
 # %%
-img = cv2.imread("800px-Wikinews_Breaking_News.png")
+img = cv2.imread("images/800px-Wikinews_Breaking_News.png")
 text = pytesseract.image_to_string(img)
 print(text)
 # %%
-img = cv2.imread("bitcoin.jpeg")
+img = cv2.imread("images/bitcoin.jpeg")
 text = pytesseract.image_to_string(img)
 print(text)
 # %%
