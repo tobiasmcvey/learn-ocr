@@ -8,6 +8,8 @@ Installing tesseract adds support for English. To support additional languages, 
 
 [oppskrifter.py](oppskrifter.py) is an example of converting pictures with recipes in Norwegian to text files and searchable PDF files. 
 
+[vildanden.py](vildanden.py) is an example of converting a picture of the starting act of Vildanden by Henrik Ibsen, into a text file and a searchable PDF. See the image from [Vildanden on Project Gutenberg](https://www.gutenberg.org/ebooks/13041) provided under Public Domain in the USA.
+
 # Setup
 
 On linux
