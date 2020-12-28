@@ -6,7 +6,7 @@ Installing tesseract adds support for English. To support additional languages, 
 
 [introduction.py](introduction.py) is an introduction script to show how to parse text from an image with interactive python.
 
-[oppskrifter.py](oppskrifter.py) is an example of converting pictures with recipes in Norwegian to text files. 
+[oppskrifter.py](oppskrifter.py) is an example of converting pictures with recipes in Norwegian to text files and searchable PDF files. 
 
 # Setup
 
