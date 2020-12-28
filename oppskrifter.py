@@ -18,14 +18,14 @@ def image_ocr(image_path, output_txt_file_name):
     f.write(image_text)
 # %%
 # Last inn bilder og konverter de til tekstfiler
-image_ocr("recipes/01.jpg", "recipe-files/del1")
-image_ocr("recipes/02.jpg", "recipe-files/del2")
-image_ocr("recipes/03.jpg", "recipe-files/del3")
-image_ocr("recipes/04.jpg", "recipe-files/del4")
-image_ocr("recipes/05.jpg", "recipe-files/del5")
-image_ocr("recipes/06.jpg", "recipe-files/del6")
-image_ocr("recipes/07.jpg", "recipe-files/del7")
-image_ocr("recipes/08.jpg", "recipe-files/del8")
+image_ocr("recipes/01.png", "recipe-files/del1")
+image_ocr("recipes/02.png", "recipe-files/del2")
+image_ocr("recipes/03.png", "recipe-files/del3")
+image_ocr("recipes/04.png", "recipe-files/del4")
+image_ocr("recipes/05.png", "recipe-files/del5")
+image_ocr("recipes/06.png", "recipe-files/del6")
+image_ocr("recipes/07.png", "recipe-files/del7")
+image_ocr("recipes/08.png", "recipe-files/del8")
 # %%
 # Funksjon for å laste inn bilder og lagre de som søkbare PDFer
 def image_pdf_ocr(image_path, output_pdf_file_name):
@@ -33,11 +33,11 @@ def image_pdf_ocr(image_path, output_pdf_file_name):
   with open(output_pdf_file_name, 'wb') as f:
     f.write(image_text)
 # %%
-image_pdf_ocr("recipes/01.jpg", "recipe-files/del1.pdf")
-image_pdf_ocr("recipes/02.jpg", "recipe-files/del2.pdf")
-image_pdf_ocr("recipes/03.jpg", "recipe-files/del3.pdf")
-image_pdf_ocr("recipes/04.jpg", "recipe-files/del4.pdf")
-image_pdf_ocr("recipes/05.jpg", "recipe-files/del5.pdf")
-image_pdf_ocr("recipes/06.jpg", "recipe-files/del6.pdf")
-image_pdf_ocr("recipes/07.jpg", "recipe-files/del7.pdf")
-image_pdf_ocr("recipes/08.jpg", "recipe-files/del8.pdf")
+image_pdf_ocr("recipes/01.png", "recipe-files/del1.pdf")
+image_pdf_ocr("recipes/02.png", "recipe-files/del2.pdf")
+image_pdf_ocr("recipes/03.png", "recipe-files/del3.pdf")
+image_pdf_ocr("recipes/04.png", "recipe-files/del4.pdf")
+image_pdf_ocr("recipes/05.png", "recipe-files/del5.pdf")
+image_pdf_ocr("recipes/06.png", "recipe-files/del6.pdf")
+image_pdf_ocr("recipes/07.png", "recipe-files/del7.pdf")
+image_pdf_ocr("recipes/08.png", "recipe-files/del8.pdf")
