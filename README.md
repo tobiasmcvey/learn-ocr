@@ -19,3 +19,5 @@ sudo apt-get install libtesseract-dev
 ```
 
 and install dependencies in requirements file with `pip install -r requirements.txt`
+
+converted .jpg files to .png for easier conversion using [ffmpeg](https://ffmpeg.org/) using `ffmpeg -i input.jpg output.png`
